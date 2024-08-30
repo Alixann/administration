@@ -1,0 +1,40 @@
+@media (max-width: 450px) {
+  .footnote {
+    p {
+      font-size: 12px;
+    }
+  }
+
+  .aside-wrapper {
+    flex-direction: column;
+    .documents {
+      width: 100%;
+      .document-wrapper {
+        .text__svg-container {
+          p {
+            font-size: 12px;
+          }
+        }
+
+        .btn-wrapper {
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+    aside {
+      width: 100%;
+      nav {
+        ul {
+          li {
+            a {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

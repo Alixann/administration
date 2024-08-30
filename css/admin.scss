@@ -1,0 +1,54 @@
+body {
+  margin: 0 auto;
+  max-width: 1240px;
+  .h1_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .button {
+    background-color: #6d1a1a;
+    &:hover {
+      background-color: #aa0000;
+    }
+    a {
+      color: aliceblue;
+    }
+  }
+  .block-for-edit {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 колонки */
+    grid-template-rows: repeat(4, 1fr); /* 4 строки */
+    gap: 20px;
+    a {
+      color: #0000de;
+      font-size: 18px;
+      font-family: bold;
+      .grid-item {
+        background-color: #f0f4f8;
+        padding: 25px;
+        border-radius: 10px;
+        text-align: center;
+      }
+    }
+  }
+}
+form {
+  max-width: 1240px;
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  input {
+    background-color: #eff6ff;
+    padding: 15px;
+    border-radius: 6px;
+  }
+  .button {
+    background-color: #0000de;
+    &:hover {
+      background-color: #15155c;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+@media (max-width: 450px) {
+  .photogallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}/*# sourceMappingURL=adaptive-Photo.css.map */

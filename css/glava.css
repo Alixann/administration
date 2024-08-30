@@ -1,0 +1,27 @@
+.glava-info-container {
+  margin-top: 35px;
+  display: flex;
+}
+.glava-info-container .photo {
+  min-width: 445px;
+  min-height: 450px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.glava-info-container .glava-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 50px;
+}
+.glava-info-container .glava-info h3 {
+  padding: 0;
+  font-size: 32px;
+}
+.glava-info-container .glava-info p {
+  font-size: 20px;
+  font-family: light;
+}/*# sourceMappingURL=glava.css.map */

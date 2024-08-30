@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+body .h1_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+body .button {
+  background-color: #6d1a1a;
+}
+body .button:hover {
+  background-color: #aa0000;
+}
+body .button a {
+  color: aliceblue;
+}
+body .block-for-edit {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 2 колонки */
+  grid-template-rows: repeat(4, 1fr); /* 4 строки */
+  gap: 20px;
+}
+body .block-for-edit a {
+  color: #0000de;
+  font-size: 18px;
+  font-family: bold;
+}
+body .block-for-edit a .grid-item {
+  background-color: #f0f4f8;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form {
+  max-width: 1240px;
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+}
+form input {
+  background-color: #eff6ff;
+  padding: 15px;
+  border-radius: 6px;
+}
+form .button {
+  background-color: #0000de;
+}
+form .button:hover {
+  background-color: #15155c;
+}/*# sourceMappingURL=admin.css.map */

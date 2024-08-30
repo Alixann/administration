@@ -1,0 +1,22 @@
+@media (max-width: 450px) {
+  .appeal-form {
+    padding: 20px;
+  }
+  .appeal-form h3 {
+    font-size: 16px;
+  }
+  .appeal-form p {
+    font-size: 12px;
+  }
+  .appeal-form .button {
+    max-width: 100px;
+    max-height: 35px;
+    font-size: 12px;
+  }
+  .appeal-form form .box {
+    max-width: 100%;
+  }
+  .appeal-form textarea {
+    min-width: 100%;
+  }
+}/*# sourceMappingURL=adaptive-form.css.map */

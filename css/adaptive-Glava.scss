@@ -1,0 +1,27 @@
+@media (max-width: 450px) {
+  .glava-info-container {
+    .photo {
+      display: none;
+    }
+
+    .glava-info{
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      background: #F0F4F8;
+
+      h3{
+         font-size: 15px;
+      }
+
+      p{
+         font-size: 12px;
+      }
+
+      button{
+         display: none;
+      }
+    }
+  }
+}

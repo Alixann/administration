@@ -1,0 +1,48 @@
+.footnote {
+  margin-top: 35px;
+  background-color: #f0f4f8;
+  position: relative; /* Позиционирование для линии */
+  padding-left: 25px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 16px;
+    font-family: light;
+    color: #6e9bb8;
+  }
+}
+.footnote:before {
+  content: ""; /* Пустое содержимое */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px; /* Ширина линии */
+  height: 100%;
+  background-color: blue; /* Синий цвет линии */
+}
+.grid-container {
+  margin-top: 35px;
+  display: grid;
+ align-items: start;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+  grid-template-rows: repeat(2, 1fr); /* 4 строки */
+  gap: 25px;
+  .grid-item {
+    h3 {
+      padding: 0;
+      color: #0000DE;
+    }
+    p {
+      font-size: 16px;
+      font-family: regular;
+      width: 100%;
+      color: #000000;
+      margin-top: 10px;
+    }
+  }
+}
+.map{
+    margin-top: 45px;
+}

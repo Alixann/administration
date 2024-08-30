@@ -1,0 +1,61 @@
+ul {
+  z-index: 2;
+  position: relative;
+}
+.container {
+  max-width: 1240px;
+  margin-top: 35px;
+
+  .slider-box {
+    background-color: antiquewhite;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+    .swiper-container {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      .swiper-slide {
+        height: 100%;
+        .swiper-img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 6px;
+        }
+      }
+      .swiper-pagination-bullet {
+        background-color: antiquewhite;
+        width: 10px;
+        height: 10px;
+        border-radius: 6px;
+      }
+      .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+      .swiper-pagination-horizontal.swiper-pagination-bullets
+        .swiper-pagination-bullet {
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+.photogallery {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 2 колонки */
+  grid-template-rows: repeat(4, 1fr); /* 4 строки */
+  gap: 20px;
+  .grid-item {
+    height: 150px;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 6px;
+      object-fit: cover;
+      background-size: contain;
+    }
+  }
+}

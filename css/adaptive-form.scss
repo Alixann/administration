@@ -1,0 +1,26 @@
+@media (max-width: 450px) {
+  .appeal-form {
+    padding: 20px;
+
+    h3 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+    .button {
+        max-width: 100px;
+        max-height: 35px;
+        font-size: 12px;
+      }
+      form{
+        .box{
+            max-width: 100%;
+        }
+      }
+      textarea {
+        min-width: 100%;
+      }
+  }
+}

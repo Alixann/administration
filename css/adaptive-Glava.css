@@ -1,0 +1,21 @@
+@media (max-width: 450px) {
+  .glava-info-container .photo {
+    display: none;
+  }
+  .glava-info-container .glava-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #F0F4F8;
+  }
+  .glava-info-container .glava-info h3 {
+    font-size: 15px;
+  }
+  .glava-info-container .glava-info p {
+    font-size: 12px;
+  }
+  .glava-info-container .glava-info button {
+    display: none;
+  }
+}/*# sourceMappingURL=adaptive-Glava.css.map */
